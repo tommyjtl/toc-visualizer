@@ -1,0 +1,495 @@
+{
+  "name": "CS 361",
+  "children": [
+    {
+      "name": "Location and Scale Parameters",
+      "children": [
+        {
+          "name": "Location Parameters"
+        },
+        {
+          "name": "Mean"
+        },
+        {
+          "name": "Median & Mode"
+        },
+        {
+          "name": "Scale Parameters"
+        },
+        {
+          "name": "Standard Deviation"
+        },
+        {
+          "name": "Variance"
+        },
+        {
+          "name": "Inter-Quantile Range"
+        },
+        {
+          "name": "Standard Coordinate"
+        }
+      ]
+    },
+    {
+      "name": "Correlation",
+      "children": [
+        {
+          "name": "Properties of Correlation"
+        },
+        {
+          "name": "Prediction"
+        },
+        {
+          "name": "Errors in Linear Predictor"
+        }
+      ]
+    },
+    {
+      "name": "Probability Fundamentals",
+      "children": [
+        {
+          "name": "Set"
+        },
+        {
+          "name": "DeMorgan's Law"
+        },
+        {
+          "name": "Combination & Permutation"
+        },
+        {
+          "name": "Norms"
+        },
+        {
+          "name": "Conditional & Joint Probability"
+        },
+        {
+          "name": "Bayers' Rule"
+        },
+        {
+          "name": "Total Probability"
+        },
+        {
+          "name": "Independence"
+        },
+        {
+          "name": "Pairwise Independence"
+        },
+        {
+          "name": "Mutual Independence"
+        },
+        {
+          "name": "Random Variables"
+        },
+        {
+          "name": "Discrete RV"
+        },
+        {
+          "name": "Continuous RV"
+        },
+        {
+          "name": "Probability Distribution Function"
+        },
+        {
+          "name": "Cumulative Distribution Function"
+        },
+        {
+          "name": "Multiple Random Variable"
+        },
+        {
+          "name": "Probability for Random Variables"
+        },
+        {
+          "name": "Joint Probability of RV"
+        },
+        {
+          "name": "Marginal Probability of RV"
+        },
+        {
+          "name": "Independence of Random Variables"
+        },
+        {
+          "name": "Bayers' Rule for for Random Variables"
+        },
+        {
+          "name": "Expectation"
+        },
+        {
+          "name": "Properties of Expected Value"
+        },
+        {
+          "name": "Expectation of a RV function"
+        },
+        {
+          "name": "Variance of Random Variables"
+        }
+      ]
+    },
+    {
+      "name": "Covariance",
+      "children": [
+        {
+          "name": "Correlation and Covariance"
+        },
+        {
+          "name": "Variance and Covariance"
+        },
+        {
+          "name": "Properties of Covariance"
+        }
+      ]
+    },
+    {
+      "name": "(Weak) Law of Large Numbers",
+      "children": [
+        {
+          "name": "Markov's Inequality"
+        },
+        {
+          "name": "Chebyshev's Inequality"
+        },
+        {
+          "name": "Range of data points"
+        }
+      ]
+    },
+    {
+      "name": "All Types of Probability Distributions",
+      "children": [
+        {
+          "name": "Bernoulli Distribution"
+        },
+        {
+          "name": "Binomial Distribution"
+        },
+        {
+          "name": "Geometric Distribution"
+        },
+        {
+          "name": "Poisson Distribution"
+        },
+        {
+          "name": "Exponential Distribution"
+        },
+        {
+          "name": "Continuous Distribution"
+        },
+        {
+          "name": "Continuous Uniform Distribution"
+        },
+        {
+          "name": "Normal Distribution"
+        },
+        {
+          "name": "Standard Normal Distribution"
+        },
+        {
+          "name": "Properties of Normal Distribution"
+        },
+        {
+          "name": "Approximation with Normal Distribution"
+        }
+      ]
+    },
+    {
+      "name": "Sample Statistics",
+      "children": [
+        {
+          "name": "Standard Unbiased"
+        },
+        {
+          "name": "Standard Error"
+        },
+        {
+          "name": "t-distribution & Z-distribution"
+        },
+        {
+          "name": "Confidence Interval"
+        },
+        {
+          "name": "Finding CDF"
+        },
+        {
+          "name": "Quantile"
+        },
+        {
+          "name": "Bootstrap Simulation"
+        },
+        {
+          "name": "Bootstrap errors"
+        },
+        {
+          "name": "Hypothesis Test"
+        },
+        {
+          "name": "p-value"
+        }
+      ]
+    },
+    {
+      "name": "Maximum Likelihood Estimation",
+      "children": [
+        {
+          "name": "MLE with Binomial Model"
+        },
+        {
+          "name": "MLE with Geometric Model"
+        },
+        {
+          "name": "Log Likelihood"
+        },
+        {
+          "name": "MLE with Poisson Model"
+        },
+        {
+          "name": "MLE with Exponential Model"
+        },
+        {
+          "name": "MLE with Normal Model"
+        },
+        {
+          "name": "Drawbacks of MLE"
+        }
+      ]
+    },
+    {
+      "name": "Maximum A Posterior Estimate",
+      "children": [
+        {
+          "name": "Drawbacks of MAP"
+        }
+      ]
+    },
+    {
+      "name": "Bayesian Posterior",
+      "children": [
+        {
+          "name": "Conjugacy"
+        },
+        {
+          "name": "Beta Distribution"
+        },
+        {
+          "name": "Gamma Distribution"
+        },
+        {
+          "name": "Update of Bayesian Posterior"
+        }
+      ]
+    },
+    {
+      "name": "Covariance Matrix",
+      "children": [
+        {
+          "name": "Symmetricity"
+        },
+        {
+          "name": "Diagonal & Off-Diagonal Elements"
+        },
+        {
+          "name": "Diagonalization"
+        },
+        {
+          "name": "Mean Squared Error (MSE)"
+        },
+        {
+          "name": "Other Properties"
+        }
+      ]
+    },
+    {
+      "name": "Classification",
+      "children": [
+        {
+          "name": "Classifier"
+        },
+        {
+          "name": "Class Confusion Matrix"
+        },
+        {
+          "name": "Cross-validation"
+        },
+        {
+          "name": "Entropy"
+        },
+        {
+          "name": "Choosing Classifiers"
+        },
+        {
+          "name": "Problem with Classifiers"
+        },
+        {
+          "name": "Decision Tree"
+        },
+        {
+          "name": "Random Forest"
+        },
+        {
+          "name": "Random Forest v. Decision Tree"
+        },
+        {
+          "name": "Support Vector Machine"
+        },
+        {
+          "name": "Decision Boundary"
+        },
+        {
+          "name": "Loss Function"
+        },
+        {
+          "name": "Convex Function"
+        },
+        {
+          "name": "Gradient Descent"
+        },
+        {
+          "name": "Stochastic Gradient Descent"
+        },
+        {
+          "name": "Naive Bayes Classifer"
+        },
+        {
+          "name": "Poisson Dist. Model"
+        },
+        {
+          "name": "Normal Dist. Model"
+        },
+        {
+          "name": "Advantages"
+        },
+        {
+          "name": "Disadvantages"
+        }
+      ]
+    },
+    {
+      "name": "Linear Regression",
+      "children": [
+        {
+          "name": "Linear Model"
+        },
+        {
+          "name": "Training"
+        },
+        {
+          "name": "Loss Function"
+        },
+        {
+          "name": "Prediction"
+        },
+        {
+          "name": "R-square evaluation"
+        },
+        {
+          "name": "Working with non-linear relationship"
+        },
+        {
+          "name": "Zipf's Law"
+        },
+        {
+          "name": "Cubic"
+        },
+        {
+          "name": "Over-fitting Issue"
+        },
+        {
+          "name": "Nearest Neighbour Regression"
+        }
+      ]
+    },
+    {
+      "name": "Unsupervised Learning",
+      "children": [
+        {
+          "name": "Types of Clustering"
+        },
+        {
+          "name": "By Input Type"
+        },
+        {
+          "name": "By Output Type"
+        },
+        {
+          "name": "Hierarchical Clustering"
+        },
+        {
+          "name": "Divisive Clustering (Top-down)"
+        },
+        {
+          "name": "Agglomerative Clustering (Bottom-up)"
+        },
+        {
+          "name": "K-means Clustering"
+        },
+        {
+          "name": "Choosing k value"
+        },
+        {
+          "name": "Problem with K-means"
+        },
+        {
+          "name": "Vector Quantization"
+        },
+        {
+          "name": "Spectral Clustering"
+        },
+        {
+          "name": "Two-moon Problem"
+        },
+        {
+          "name": "Graph and Adjacency Matrix"
+        },
+        {
+          "name": "Graph Cutting"
+        },
+        {
+          "name": "Laplacian Matrix"
+        },
+        {
+          "name": "Eigenvalue Distribution"
+        }
+      ]
+    },
+    {
+      "name": "Markov Chain",
+      "children": [
+        {
+          "name": "Transition Probability Matrix"
+        },
+        {
+          "name": "Properties"
+        },
+        {
+          "name": "Probability Distributions over States"
+        },
+        {
+          "name": "Irreducibility"
+        },
+        {
+          "name": "Stationary and Non-stationary"
+        }
+      ]
+    },
+    {
+      "name": "Appendix",
+      "children": [
+        {
+          "name": "Common Derivatives"
+        },
+        {
+          "name": "Logarithm Rules"
+        }
+      ]
+    },
+    {
+      "name": "Location and Scale Parameters",
+      "children": [
+        {
+          "name": "Location Parameters"
+        },
+        {
+          "name": "Subsubsection Heading Here"
+        }
+      ]
+    }
+  ]
+}

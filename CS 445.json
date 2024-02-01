@@ -1,0 +1,840 @@
+{
+  "name": "CS 445",
+  "children": [
+    {
+      "name": "Filter",
+      "children": [
+        {
+          "name": "Frequency Domain",
+          "children": [
+            {
+              "name": "Down-sampling Images"
+            },
+            {
+              "name": "High-pass & Low-pass"
+            }
+          ]
+        },
+        {
+          "name": "Template Matching",
+          "children": [
+            {
+              "name": "Method 1: Correlation"
+            },
+            {
+              "name": "Method 2: Zero-mean Correlation"
+            },
+            {
+              "name": "Method 3: SSD"
+            },
+            {
+              "name": "Method 4: NCC"
+            },
+            {
+              "name": "Choosing which to Use"
+            }
+          ]
+        },
+        {
+          "name": "Image Pyramids"
+        },
+        {
+          "name": "Compression & Denoising"
+        }
+      ]
+    },
+    {
+      "name": "Lights & Colors",
+      "children": [
+        {
+          "name": "Lights",
+          "children": [
+            {
+              "name": "Human Eyes"
+            },
+            {
+              "name": "Reflections"
+            }
+          ]
+        },
+        {
+          "name": "Colors",
+          "children": [
+            {
+              "name": "Color Spaces"
+            },
+            {
+              "name": "Color Balancing"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Texture Synthesis",
+      "children": [
+        {
+          "name": "Ideas",
+          "children": [
+            {
+              "name": "Probability Distribution"
+            },
+            {
+              "name": "Sample from the Image"
+            },
+            {
+              "name": "SSD"
+            },
+            {
+              "name": "Patches"
+            },
+            {
+              "name": "Algorithm"
+            }
+          ]
+        },
+        {
+          "name": "Hole-filling",
+          "children": [
+            {
+              "name": "Onion-peel Order"
+            },
+            {
+              "name": "Gradient Sensitive Ordering"
+            }
+          ]
+        },
+        {
+          "name": "Image Quilting"
+        },
+        {
+          "name": "Texture Transfer"
+        }
+      ]
+    },
+    {
+      "name": "Region Selection",
+      "children": [
+        {
+          "name": "Challenges"
+        },
+        {
+          "name": "Method 1: Intelligent Scissors"
+        },
+        {
+          "name": "Method 2: Graph Cut"
+        },
+        {
+          "name": "Method 3: Lazy Snapping"
+        },
+        {
+          "name": "Other Methods",
+          "children": [
+            {
+              "name": "Seam Carving"
+            },
+            {
+              "name": "Photo Stitching"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Image Composition",
+      "children": [
+        {
+          "name": "Method 1: Cut & Paste"
+        },
+        {
+          "name": "Method 2: Laplacian Pyramid Blending"
+        },
+        {
+          "name": "Method 3: Gradient Domain Editing",
+          "children": [
+            {
+              "name": "Possion Blending"
+            },
+            {
+              "name": "Mixed Blending"
+            },
+            {
+              "name": "Pros and Cons"
+            },
+            {
+              "name": "Other Applications"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Image Transformation",
+      "children": [
+        {
+          "name": "Parametric Warping",
+          "children": [
+            {
+              "name": "2D Image Transformation"
+            },
+            {
+              "name": "From Rigid to Projective"
+            }
+          ]
+        },
+        {
+          "name": "Recovering Transformations"
+        },
+        {
+          "name": "Morphing",
+          "children": [
+            {
+              "name": "Procedure"
+            },
+            {
+              "name": "Forward Mapping"
+            },
+            {
+              "name": "Inverse Mapping"
+            },
+            {
+              "name": "Bilinnear Interpolation"
+            },
+            {
+              "name": "Object Averaging"
+            },
+            {
+              "name": "Non-parametric Warping"
+            },
+            {
+              "name": "Matting"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Camera Model",
+      "children": [
+        {
+          "name": "Image Formation"
+        },
+        {
+          "name": "Pinhole Camera",
+          "children": [
+            {
+              "name": "Projective Geometry"
+            },
+            {
+              "name": "Vanishing Points"
+            },
+            {
+              "name": "World & Image Coordinates"
+            }
+          ]
+        },
+        {
+          "name": "Pinhole Camera Model",
+          "children": [
+            {
+              "name": "Intrinsic & Extrinsic Matrix"
+            },
+            {
+              "name": "Orthogonal Projection"
+            },
+            {
+              "name": "Camera Calibration"
+            }
+          ]
+        },
+        {
+          "name": "Modeling w/ Lens",
+          "children": [
+            {
+              "name": "Camera Characteristics"
+            }
+          ]
+        },
+        {
+          "name": "Focus Stacking",
+          "children": [
+            {
+              "name": "The Problem"
+            },
+            {
+              "name": "The Algorithm"
+            }
+          ]
+        },
+        {
+          "name": "Measuring 3D Object",
+          "children": [
+            {
+              "name": "Rules of Thumb"
+            },
+            {
+              "name": "Measure Heights"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "3D Reconstruction",
+      "children": [
+        {
+          "name": "\"Tour into the Picture\"",
+          "children": [
+            {
+              "name": "Homography"
+            },
+            {
+              "name": "The Algorithm"
+            }
+          ]
+        },
+        {
+          "name": "Automatic Photo Pop-up"
+        }
+      ]
+    },
+    {
+      "name": "Image-based Lighting",
+      "children": [
+        {
+          "name": "The Objectives"
+        },
+        {
+          "name": "Environment Maps"
+        },
+        {
+          "name": "Light Probes"
+        },
+        {
+          "name": "HDR"
+        },
+        {
+          "name": "Relighting"
+        },
+        {
+          "name": "Ray Tracing"
+        },
+        {
+          "name": "Ray Casting"
+        },
+        {
+          "name": "Spectral Matting & Lighting"
+        }
+      ]
+    },
+    {
+      "name": "Image Alignments",
+      "children": [
+        {
+          "name": "Understanding Interest Points"
+        },
+        {
+          "name": "Keypoint Localization",
+          "children": [
+            {
+              "name": "Solving for Position: Harris Corner Detector"
+            },
+            {
+              "name": "Solving for Scale: DoG Detector"
+            },
+            {
+              "name": "Solving for Rotation: SIFT"
+            }
+          ]
+        },
+        {
+          "name": "Keypoint Description",
+          "children": [
+            {
+              "name": "SIFT Descriptor"
+            },
+            {
+              "name": "SURF Descriptor"
+            }
+          ]
+        },
+        {
+          "name": "Choosing Detector & Descriptor"
+        }
+      ]
+    },
+    {
+      "name": "Augmented Reality",
+      "children": [
+        {
+          "name": "Adding Fake Objects",
+          "children": [
+            {
+              "name": "Approach"
+            },
+            {
+              "name": "Challenges"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Object Recognition",
+      "children": [
+        {
+          "name": "The Problem"
+        },
+        {
+          "name": "Approach 1: Visual Words",
+          "children": [
+            {
+              "name": "K-means Clustering"
+            },
+            {
+              "name": "Comparing Visual Words w/ Histograms"
+            }
+          ]
+        },
+        {
+          "name": "Approach 2: Inverse Document File",
+          "children": [
+            {
+              "name": "Recognition with K-tree"
+            },
+            {
+              "name": "Look-up"
+            },
+            {
+              "name": "Results"
+            }
+          ]
+        },
+        {
+          "name": "Approach 3: Geometric Verification",
+          "children": [
+            {
+              "name": "More Accuracy"
+            },
+            {
+              "name": "Applications"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Image Stitching",
+      "children": [
+        {
+          "name": "The Problem"
+        },
+        {
+          "name": "The Algorithm",
+          "children": [
+            {
+              "name": "Computing Homography"
+            },
+            {
+              "name": "Choosing Matching Points"
+            },
+            {
+              "name": "Choosing Projection Surface"
+            },
+            {
+              "name": "Choosing Images to Stitch"
+            }
+          ]
+        },
+        {
+          "name": "Refining Details",
+          "children": [
+            {
+              "name": "Choosing Seems"
+            },
+            {
+              "name": "Blending"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Object Retrieval",
+      "children": [
+        {
+          "name": "3D Reconstruction",
+          "children": [
+            {
+              "name": "Flickr Example"
+            },
+            {
+              "name": "Data-driven Algorithms"
+            }
+          ]
+        },
+        {
+          "name": "Image Completion",
+          "children": [
+            {
+              "name": "Scene Completion (Hays and Efros)"
+            },
+            {
+              "name": "Mapping Images to GPS (Hays and Efros)"
+            },
+            {
+              "name": "Tiny Images (MIT CSAIL Vision)"
+            },
+            {
+              "name": "Automatic Colorization"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Deep Network",
+      "children": [
+        {
+          "name": "Encoder & Decoder",
+          "children": [
+            {
+              "name": "Example 1: Colorization"
+            },
+            {
+              "name": "Example 2: CNN"
+            }
+          ]
+        },
+        {
+          "name": "Convolutional Network",
+          "children": [
+            {
+              "name": "General Overview"
+            },
+            {
+              "name": "Feature Extraction"
+            },
+            {
+              "name": "Non-linearity"
+            },
+            {
+              "name": "Spatial Pooling"
+            },
+            {
+              "name": "ResNet Analysis"
+            }
+          ]
+        },
+        {
+          "name": "Network Performance",
+          "children": [
+            {
+              "name": "im2gps Example"
+            },
+            {
+              "name": "Image Completion Example"
+            }
+          ]
+        },
+        {
+          "name": "Why is it Working?"
+        }
+      ]
+    },
+    {
+      "name": "Deep Fake",
+      "children": [
+        {
+          "name": "Types of Fakes"
+        },
+        {
+          "name": "Detecting Fakes",
+          "children": [
+            {
+              "name": "Detecting whether CG"
+            },
+            {
+              "name": "Detecting Forgery"
+            }
+          ]
+        },
+        {
+          "name": "Generating Fakes",
+          "children": [
+            {
+              "name": "Image to Image Translation (pix2pix)"
+            },
+            {
+              "name": "CycleGAN"
+            },
+            {
+              "name": "Pose Estimation (Everybody Dance Now)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Kinect",
+      "children": [
+        {
+          "name": "General Overview"
+        },
+        {
+          "name": "Stereo Image Matching",
+          "children": [
+            {
+              "name": "Stereo & Epipolar Constraint"
+            },
+            {
+              "name": "Parallel Images"
+            },
+            {
+              "name": "Depth from Disparity"
+            },
+            {
+              "name": "Method 1: Basic Stereo Matching"
+            },
+            {
+              "name": "Method 2: Dot Projections on Kinect"
+            },
+            {
+              "name": "Comparisons of Both Methods"
+            }
+          ]
+        },
+        {
+          "name": "Pose Estimation from Depth",
+          "children": [
+            {
+              "name": "Challenges"
+            },
+            {
+              "name": "Thresholding Depth"
+            },
+            {
+              "name": "Learning & Training"
+            },
+            {
+              "name": "Prediciton"
+            },
+            {
+              "name": "Results"
+            }
+          ]
+        },
+        {
+          "name": "Pose Estimation from RGB",
+          "children": [
+            {
+              "name": "OpenPose"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Computational Photography",
+      "children": [
+        {
+          "name": "Convential v. Computational Camera"
+        },
+        {
+          "name": "The Plenoptic Function",
+          "children": [
+            {
+              "name": "General Overview"
+            },
+            {
+              "name": "The Plenoptic Equation"
+            }
+          ]
+        },
+        {
+          "name": "Tradeoffs"
+        },
+        {
+          "name": "Light-field Photography",
+          "children": [
+            {
+              "name": "Stanford Plenoptic Camera"
+            },
+            {
+              "name": "Applications"
+            },
+            {
+              "name": "Pros and Cons"
+            }
+          ]
+        },
+        {
+          "name": "Image & Depth w/ Coded Aperture (MIT CSAIL)",
+          "children": [
+            {
+              "name": "Lens and Defocus"
+            },
+            {
+              "name": "Challenge: Deconvolution is Ill-posed"
+            },
+            {
+              "name": "Idea 1: Natural Image Prior"
+            },
+            {
+              "name": "Idea 2: Coded Aperture"
+            },
+            {
+              "name": "Pros and Cons"
+            }
+          ]
+        },
+        {
+          "name": "Motion-invariant Photography (MIT CSAIL)"
+        }
+      ]
+    },
+    {
+      "name": "Face Detection & Recognition",
+      "children": [
+        {
+          "name": "Face Detection",
+          "children": [
+            {
+              "name": "What does a face look like?"
+            },
+            {
+              "name": "Finding Faces"
+            },
+            {
+              "name": "ReinaFace (SOTA)"
+            }
+          ]
+        },
+        {
+          "name": "Face Recognition",
+          "children": [
+            {
+              "name": "Simplest Method Overview"
+            },
+            {
+              "name": "DeepFace (SOTA)"
+            }
+          ]
+        },
+        {
+          "name": "Face Transformation",
+          "children": [
+            {
+              "name": "Figure-centric Averages"
+            },
+            {
+              "name": "Morphing"
+            },
+            {
+              "name": "Alignments"
+            },
+            {
+              "name": "Manipulation"
+            }
+          ]
+        },
+        {
+          "name": "Face Fakery",
+          "children": [
+            {
+              "name": "Style-based Generator (Berkeley)"
+            },
+            {
+              "name": "Synthesizing Obama (U.W.)"
+            }
+          ]
+        },
+        {
+          "name": "Human Perception on Faces"
+        }
+      ]
+    },
+    {
+      "name": "Video Magnification",
+      "children": [
+        {
+          "name": "Objective"
+        },
+        {
+          "name": "Approach 1: Point Tracking",
+          "children": [
+            {
+              "name": "N\u00e4ive Approach"
+            },
+            {
+              "name": "Better than N\u00e4ive Approach"
+            },
+            {
+              "name": "Results"
+            },
+            {
+              "name": "Pros and Cons"
+            }
+          ]
+        },
+        {
+          "name": "Approach 2: Eulerian Processing (Pixelwise)",
+          "children": [
+            {
+              "name": "Fluid Dynamics: Lagrangian & Eulerian"
+            },
+            {
+              "name": "Method Overview"
+            },
+            {
+              "name": "Problems & Solutions"
+            },
+            {
+              "name": "Results"
+            },
+            {
+              "name": "Pros and Cons"
+            }
+          ]
+        },
+        {
+          "name": "Approach 3: Eulerian Processing (Shift Phase)",
+          "children": [
+            {
+              "name": "Linear Motion v. Phase-based Motion"
+            },
+            {
+              "name": "2D Complex Steerable Pyramid"
+            },
+            {
+              "name": "Phase-based Pipeline"
+            },
+            {
+              "name": "Limits of Phased-based maginification"
+            },
+            {
+              "name": "Results"
+            },
+            {
+              "name": "Pros and Cons"
+            }
+          ]
+        },
+        {
+          "name": "Extra: Visual Microphone (MIT CSAIL)",
+          "children": [
+            {
+              "name": "Sounds & Motion"
+            },
+            {
+              "name": "Processing from Motion Signals"
+            },
+            {
+              "name": "Results"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
